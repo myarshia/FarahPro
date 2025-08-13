@@ -1,0 +1,28 @@
+چرخه روزانه با چند کلیک
+حالا دیگه برای هر روزت این مسیر رو داری:
+
+Commit:
+
+از پایین سمت راست یا منوی بالا روی Commit کلیک کن.
+
+فایل‌هایی که تغییر دادی رو انتخاب کن.
+
+پیام Commit رو بنویس.
+
+روی Commit یا Commit and Push بزن.
+
+Push به GitHub:
+اگر Commit and Push رو بزنی، مستقیم میره.
+اگر فقط Commit زدی، بعدش از منو VCS → Git → Push رو انتخاب کن.
+
+Pull آپدیت‌ها (اگر جای دیگه تغییر دادی یا همکار داره):
+VCS → Git → Pull
+
+
+
+or in cmd in project folder
+
+git add .
+git commit -m "شرح تغییرات"
+git push
+
