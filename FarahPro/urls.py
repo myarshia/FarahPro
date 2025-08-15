@@ -21,6 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # API ها
+    path('api/accounts/', include('apps.accounts.urls')),  # مسیر اپ accounts
     path('api/auditlog/', include('apps.auditlog.urls')),  # مسیر اپ auditlog
     path('api/organizations/', include('apps.organizations.urls')),  # مسیر اپ organizations
 ]
